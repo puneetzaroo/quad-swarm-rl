@@ -175,6 +175,12 @@ Multiple drones: a decentralized control policy for multiple drones in obstacle 
 ICRA 2024
 
 A method to find the smallest control policy for deployment: train once, get tons of models with different size by using HyperNetworks.
+
+We only need four neurons to control a quadrotor! That is super amazing!
+
+Please check following videos for more details:
+- [Square Grid Trajectory](https://www.youtube.com/watch?v=IenGT_TOwGQ&ab_channel=USCRESL)
+- [Bezier Curve Trajectory](https://www.youtube.com/watch?v=B5EpKlD5F68&ab_channel=USCRESL)
 ```
 @inproceedings{hegde2024hyperppo,
   title={Hyperppo: A scalable method for finding small policies for robotic control},
