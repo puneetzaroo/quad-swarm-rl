@@ -1,4 +1,4 @@
-# Decentralized Control of Quadrotor Swarms with End-to-end Deep Reinforcement Learning
+# Drone Simulator: QuadSwarm
 
 A codebase for training reinforcement learning policies for quadrotor swarms.
 Includes:
@@ -110,7 +110,23 @@ To run unit tests:
 
 If you use this repository in your work or otherwise wish to cite it, please make reference to our following papers.
 
-### Single drone: a unified control policy adaptable to various types of physical quadrotors. (IROS 2019)
+### QuadSwarm: A Modular Multi-Quadrotor Simulator for Deep Reinforcement Learning with Direct Thrust Control 
+[ICRA Workshop: The Role of Robotics Simulators for Unmanned Aerial Vehicles, 2023](https://imrclab.github.io/workshop-uav-sims-icra2023/)
+
+Drone Simulator for Reinforcement Learning.
+```
+@article{huang2023quadswarm,
+  title={Quadswarm: A modular multi-quadrotor simulator for deep reinforcement learning with direct thrust control},
+  author={Huang, Zhehui and Batra, Sumeet and Chen, Tao and Krupani, Rahul and Kumar, Tushar and Molchanov, Artem and Petrenko, Aleksei and Preiss, James A and Yang, Zhaojing and Sukhatme, Gaurav S},
+  journal={arXiv preprint arXiv:2306.09537},
+  year={2023}
+}
+```
+
+### Sim-to-(Multi)-Real: Transfer of Low-Level Robust Control Policies to Multiple Quadrotors
+IROS 2019
+
+Single drone: a unified control policy adaptable to various types of physical quadrotors.
 ```
 @inproceedings{molchanov2019sim,
   title={Sim-to-(multi)-real: Transfer of low-level robust control policies to multiple quadrotors},
@@ -121,8 +137,10 @@ If you use this repository in your work or otherwise wish to cite it, please mak
   organization={IEEE}
 }
 ```
+### Decentralized Control of Quadrotor Swarms with End-to-end Deep Reinforcement Learning
+CoRL 2021
 
-### Multiple drones: a decentralized control policy for multiple drones in obstacle free environments. (CoRL 2021)
+Multiple drones: a decentralized control policy for multiple drones in obstacle free environments.
 ```
 @inproceedings{batra21corl,
   author    = {Sumeet Batra and
@@ -139,8 +157,10 @@ If you use this repository in your work or otherwise wish to cite it, please mak
   url       = {https://arxiv.org/abs/2109.07735}
 }
 ```
+### Collision Avoidance and Navigation for a Quadrotor Swarm Using End-to-end Deep Reinforcement Learning
+ICRA 2024
 
-### Multiple drones: a decentralized control policy for multiple drones in obstacle dense environments. (ICRA 2024)
+Multiple drones: a decentralized control policy for multiple drones in obstacle dense environments.
 ```
 @inproceedings{huang2024collision,
   title={Collision avoidance and navigation for a quadrotor swarm using end-to-end deep reinforcement learning},
@@ -151,8 +171,10 @@ If you use this repository in your work or otherwise wish to cite it, please mak
   organization={IEEE}
 }
 ```
+### HyperPPO: A scalable method for finding small policies for robotic control
+ICRA 2024
 
-### Single drone: a method to find the smallest control policy for deployment. Train once, get tons of models with different size by using HyperNetworks. (ICRA 2024)
+A method to find the smallest control policy for deployment: train once, get tons of models with different size by using HyperNetworks.
 ```
 @inproceedings{hegde2024hyperppo,
   title={Hyperppo: A scalable method for finding small policies for robotic control},
