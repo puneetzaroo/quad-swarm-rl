@@ -7,10 +7,10 @@ and extended to support swarms of quadrotor drones
 * Scripts and the necessary wrappers to facilitate training of control policies with Sample Factory
 https://github.com/alex-petrenko/sample-factory
 
-**Paper:** https://arxiv.org/abs/2109.07735
+[//]: # (**Paper:** https://arxiv.org/abs/2109.07735)
 
-**Website:** https://sites.google.com/view/swarm-rl
-
+[//]: # ()
+[//]: # (**Website:** https://sites.google.com/view/swarm-rl)
 
 
 <p align="middle">
@@ -108,8 +108,21 @@ To run unit tests:
 
 ## Citation
 
-If you use this repository in your work or otherwise wish to cite it, please make reference to our CORL paper.
+If you use this repository in your work or otherwise wish to cite it, please make reference to our following papers.
 
+### Single drone: a unified control policy adaptable to various types of physical quadrotors. (IROS 2019)
+```
+@inproceedings{molchanov2019sim,
+  title={Sim-to-(multi)-real: Transfer of low-level robust control policies to multiple quadrotors},
+  author={Molchanov, Artem and Chen, Tao and H{\"o}nig, Wolfgang and Preiss, James A and Ayanian, Nora and Sukhatme, Gaurav S},
+  booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={59--66},
+  year={2019},
+  organization={IEEE}
+}
+```
+
+### Multiple drones: a decentralized control policy for multiple drones in obstacle free environments. (CoRL 2021)
 ```
 @inproceedings{batra21corl,
   author    = {Sumeet Batra and
@@ -126,5 +139,32 @@ If you use this repository in your work or otherwise wish to cite it, please mak
   url       = {https://arxiv.org/abs/2109.07735}
 }
 ```
+
+### Multiple drones: a decentralized control policy for multiple drones in obstacle dense environments. (ICRA 2024)
+```
+@inproceedings{huang2024collision,
+  title={Collision avoidance and navigation for a quadrotor swarm using end-to-end deep reinforcement learning},
+  author={Huang, Zhehui and Yang, Zhaojing and Krupani, Rahul and {\c{S}}enba{\c{s}}lar, Bask{\i}n and Batra, Sumeet and Sukhatme, Gaurav S},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={300--306},
+  year={2024},
+  organization={IEEE}
+}
+```
+
+### Single drone: a method to find the smallest control policy for deployment. Train once, get tons of models with different size by using HyperNetworks. (ICRA 2024)
+```
+@inproceedings{hegde2024hyperppo,
+  title={Hyperppo: A scalable method for finding small policies for robotic control},
+  author={Hegde, Shashank and Huang, Zhehui and Sukhatme, Gaurav S},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={10821--10828},
+  year={2024},
+  organization={IEEE}
+}
+```
+
+### The next paper will appear soon. Hopefully, it will be the end of 2024. That would be a big surprise. 
+### After that paper publish, we will spend more time on the community, including maintain a website to cover more details of using this simulator and open source some important trained models. 
 
 Github issues and pull requests are welcome.
